@@ -12,11 +12,11 @@ class CustomEnchantsIds
     const LIFESTEAL = 100;
     const BLIND = 101;
     const DEATHBRINGER = 102;
-    const GOOEY = 103;
+    //const GOOEY = 103;
     const POISON = 104;
     /*const BLOCK = 105;
-    const ICEASPECT = 106;
-    const SHOCKWAVE = 107;*/
+    //const ICEASPECT = 106;
+    //const SHOCKWAVE = 107;*/
     const AUTOREPAIR = 108;
     const CRIPPLE = 109;
     const CRIPPLINGSTRIKE = 109;
@@ -36,7 +36,7 @@ class CustomEnchantsIds
     const LIGHTNING = 123;
 
     //TOOLS
-    const EXPLOSIVE = 200; //Not accurate
+    //const EXPLOSIVE = 200; //Not accurate
     const SMELTING = 201;
     const ENERGIZING = 202;
     const QUICKENING = 203;
@@ -55,7 +55,7 @@ class CustomEnchantsIds
     const WITHERSKULL = 301; //witherskulls remain
     //const FIREWORK = 302;
     const PARALYZE = 303;
-    const MOLOTOV = 304; //Falling sand fire doesn't appear
+    //const MOLOTOV = 304; //Falling sand fire doesn't appear
     const VOLLEY = 305;
     const AUTOAIM = 306;
     const PIERCING = 307;
@@ -66,7 +66,7 @@ class CustomEnchantsIds
     const HEADHUNTER = 312;
     const GRAPPLING = 313;
     const PORKIFIED = 314; //pigs remain
-    const MISSILE = 315;
+    //const MISSILE = 315;
     const PLACEHOLDER = 316;
 
     //ARMOR
@@ -88,13 +88,13 @@ class CustomEnchantsIds
     const GROW = 415;
     const CACTUS = 416;
     const ANTIKNOCKBACK = 417;
-    const FORCEFIELD = 418;
+    //const FORCEFIELD = 418;
     const OVERLOAD = 419;
     const ARMORED = 420;
     const TANK = 421;
     const HEAVY = 422;
     const SHIELDED = 423;
-    const POISONOUSCLOUD = 424;
+    //const POISONOUSCLOUD = 424;
 
     //HELMET
     const IMPLANTS = 600;
