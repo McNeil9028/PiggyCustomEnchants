@@ -15,7 +15,7 @@ use DaPigGuy\PiggyCustomEnchants\Tasks\AutoAimTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\CactusTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\ChickenTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\EffectTask;
-use DaPigGuy\PiggyCustomEnchants\Tasks\ForcefieldTask;
+//use DaPigGuy\PiggyCustomEnchants\Tasks\ForcefieldTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\JetpackTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\MeditationTask;
 use DaPigGuy\PiggyCustomEnchants\Tasks\ParachuteTask;
@@ -134,8 +134,8 @@ class Main extends PluginBase
     /** @var array */
     public $chickenTick;
     /** @var array */
-    public $forcefieldParticleTick;
-    /** @var array */
+    //public $forcefieldParticleTick;
+    ///** @var array */
     public $gasParticleTick;
     /** @var array */
     public $jetpackChargeTick;
@@ -204,7 +204,7 @@ class Main extends PluginBase
         CustomEnchantsIds::FARMER => ["Farmer", "Hoe", "Break", "Uncommon", 1, "Automatically regrows crops when harvested"],
         CustomEnchantsIds::FERTILIZER => ["Fertilizer", "Hoe", "Interact", "Uncommon", 3, "Creates farmland in a level radius around the block"],
         CustomEnchantsIds::FOCUSED => ["Focused", "Helmets", "Effect", "Uncommon", 5, "Nausea will affect you less"],
-        CustomEnchantsIds::FORCEFIELD => ["Forcefield", "Armor", "Equip", "Mythic", 5, "Deflects projectiles and living entities in a 0.75x (x = # of armor pieces)"],
+        //CustomEnchantsIds::FORCEFIELD => ["Forcefield", "Armor", "Equip", "Mythic", 5, "Deflects projectiles and living entities in a 0.75x (x = # of armor pieces)"],
         CustomEnchantsIds::FROZEN => ["Frozen", "Armor", "Damaged", "Rare", 5, "Gives slowness to enemy when hit"],
         CustomEnchantsIds::GEARS => ["Gears", "Boots", "Equip", "Uncommon", 5, "Gives speed"],
         CustomEnchantsIds::GLOWING => ["Glowing", "Helmets", "Equip", "Common", 1, "Gives night vision"],
@@ -299,7 +299,7 @@ class Main extends PluginBase
             $this->getScheduler()->scheduleRepeatingTask(new AutoAimTask($this), 1);
             $this->getScheduler()->scheduleRepeatingTask(new CactusTask($this), 10);
             $this->getScheduler()->scheduleRepeatingTask(new ChickenTask($this), 20);
-            $this->getScheduler()->scheduleRepeatingTask(new ForcefieldTask($this), 1);
+            //$this->getScheduler()->scheduleRepeatingTask(new ForcefieldTask($this), 1);
             $this->getScheduler()->scheduleRepeatingTask(new EffectTask($this), 5);
             $this->getScheduler()->scheduleRepeatingTask(new JetpackTask($this), 1);
             $this->getScheduler()->scheduleRepeatingTask(new MeditationTask($this), 20);
@@ -308,7 +308,7 @@ class Main extends PluginBase
             $this->getScheduler()->scheduleRepeatingTask(new RadarTask($this), 1);
             $this->getScheduler()->scheduleRepeatingTask(new SizeTask($this), 20);
             $this->getScheduler()->scheduleRepeatingTask(new SpiderTask($this), 1);
-            $this->getScheduler()->scheduleRepeatingTask(new PoisonousGasTask($this), 1);
+            //$this->getScheduler()->scheduleRepeatingTask(new PoisonousGasTask($this), 1);
             $this->getScheduler()->scheduleRepeatingTask(new VacuumTask($this), 1);
             $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
         }
