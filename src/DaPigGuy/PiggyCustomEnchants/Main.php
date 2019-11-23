@@ -207,7 +207,7 @@ class Main extends PluginBase
         //CustomEnchantsIds::FORCEFIELD => ["Forcefield", "Armor", "Equip", "Mythic", 5, "Deflects projectiles and living entities in a 0.75x (x = # of armor pieces)"],
         CustomEnchantsIds::FROZEN => ["Frozen", "Armor", "Damaged", "Rare", 5, "Gives slowness to enemy when hit"],
         CustomEnchantsIds::GEARS => ["Gears", "Boots", "Equip", "Uncommon", 5, "Gives speed"],
-        CustomEnchantsIds::GLOWING => ["Glowing", "Helmets", "Equip", "Common", 1, "Gives night vision"],
+        //CustomEnchantsIds::GLOWING => ["Glowing", "Helmets", "Equip", "Common", 1, "Gives night vision"],
         CustomEnchantsIds::GOOEY => ["Gooey", "Weapons", "Damage", "Uncommon", 5, "Flings enemy into the air"],
         CustomEnchantsIds::GRAPPLING => ["Grappling", "Bow", "Projectile_Hit", "Rare", 1, "Pulls you to location of arrow. If enemy is hit, the enemy will be pulled to you."],
         CustomEnchantsIds::GROW => ["Grow", "Armor", "Sneak", "Uncommon", 5, "Increases size on sneak (Must be wearing full set of Grow armor)"],
