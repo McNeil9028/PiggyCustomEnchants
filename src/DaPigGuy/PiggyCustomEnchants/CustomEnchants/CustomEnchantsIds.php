@@ -12,7 +12,7 @@ class CustomEnchantsIds
     const LIFESTEAL = 100;
     const BLIND = 101;
     const DEATHBRINGER = 102;
-    const GOOEY = 103;
+    //const GOOEY = 103;
     const POISON = 104;
     /*const BLOCK = 105;
     //const ICEASPECT = 106;
