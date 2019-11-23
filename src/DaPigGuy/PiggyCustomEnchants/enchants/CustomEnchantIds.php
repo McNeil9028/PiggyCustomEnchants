@@ -27,9 +27,9 @@ class CustomEnchantIds
     const CRIPPLE = 109;
     const DEATHBRINGER = 102;
     const DEEPWOUNDS = 112;
-    const DISARMING = 117;
-    const DISARMOR = 121;
-    const GOOEY = 103;
+    //const DISARMING = 117;
+    //const DISARMOR = 121;
+    //const GOOEY = 103;
     const HALLUCINATION = 119;
     //const HEADLESS = 116;
     //const ICEASPECT = 106;
@@ -56,14 +56,14 @@ class CustomEnchantIds
     const HEADHUNTER = 312;
     const HEALING = 310;
     const HOMING = 316;
-    const MISSILE = 315;
-    const MOLOTOV = 304;
+    //const MISSILE = 315;
+    //const MOLOTOV = 304;
     const PARALYZE = 303;
     const PIERCING = 307;
-    const PORKIFIED = 314;
+    //const PORKIFIED = 314;
     const SHUFFLE = 308;
     const VOLLEY = 305;
-    const WITHERSKULL = 301;
+    //const WITHERSKULL = 301;
 
     /**
      * Tools
@@ -119,13 +119,13 @@ class CustomEnchantIds
     const GROW = 415;
     const CACTUS = 416;
     const ANTIKNOCKBACK = 417;
-    const FORCEFIELD = 418;
+    //const FORCEFIELD = 418;
     const OVERLOAD = 419;
     const ARMORED = 420;
     const TANK = 421;
     const HEAVY = 422;
     const SHIELDED = 423;
-    const POISONOUSCLOUD = 424;
+    //const POISONOUSCLOUD = 424;
 
     /**
      * Helmet
